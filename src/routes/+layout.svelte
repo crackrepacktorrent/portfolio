@@ -5,6 +5,7 @@
 	import arepa2 from "$lib/arepa2.png";
 	import arepa3 from "$lib/arepa3.png";
 	import { crossfade } from 'svelte/transition';
+	import { page } from '$app/state';
 </script>
 
 <div class="my-25 mx-10 grid grid-cols-[25vh_auto_25vh] gap-4 h-[80%]">
@@ -56,17 +57,23 @@
     </div>
     <div class="text-right" dir="rtl">
         <ul class="list-disc">
+			<li>
+				<a href="/" class={page.url.pathname === "/" ? "active" : ""}>home</a>
+			</li>
             <li>
-                <a href="/projects">projects</a>
+                <a href="/projects" class={page.url.pathname === "/projects" ? "active" : ""}>projects</a>
             </li>
             <li>
-                <a href="/art">art</a>
-            </li>
-            <li>
-                <a href="/coursework">relevant coursework</a>
+                <a href="/art" class={page.url.pathname === "/art" ? "active" : ""}>art</a>
             </li>
         </ul>
     </div>
     <div class=" p-2 col-span-3 text-center">
     </div>
 </div>
+
+<style>
+	.active {
+		background-color: yellow;
+	}
+</style>
