@@ -1,5 +1,5 @@
 <div class="text-center">
-    <h1 class="">personal projects</h1>
+    <h1 class="pb-10">personal projects</h1>
 
     <a href="https://repacker.itch.io/neigh" class=" text-blue-600">Neigh!</a>
     

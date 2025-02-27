@@ -8,10 +8,10 @@
 	import { page } from '$app/state';
 </script>
 
-<div class="my-25 mx-10 grid grid-cols-[25vh_auto_25vh] gap-4 h-[80%]">
+<div class="my-auto grid grid-cols-[25vh_auto_25vh] gap-4 w-[95vw]">
     <div class="">
         <h1 class="pb-10 font-black  text-5xl">buh-!</h1>
-        <h1 class="">whoami?</h1>
+        <h1 class="pb-10">whoami?</h1>
         <img src={arepa2} alt="an arepa with a face!" class="pb-10">
         <p class="pb-10">
             josé davila-ciullo (they/them)! I'm a CS student (systems track) at stanford, some of my interests include:
@@ -56,7 +56,7 @@
         {@render children()}
     </div>
     <div class="text-right" dir="rtl">
-        <ul class="list-disc">
+        <ul class="list-disc pr-6">
 			<li>
 				<a href="/" class={page.url.pathname === "/" ? "active" : ""}>home</a>
 			</li>
