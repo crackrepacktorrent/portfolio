@@ -20,7 +20,7 @@
 </div>
 
 <div>
-    <h1 class="pb-10">Head sprites for some of the boys you can date in fiximupim:</h1>
+    <h1 class="pb-10">Head sprites for some of the dudes you can date in fiximupim:</h1>
     <div class="grid grid-cols-3 gap-4 w-[80%]">
         <img src={nerdy} alt="" class="grid-col-1">
         <img src={playful} alt="" class="grid-col-2">
