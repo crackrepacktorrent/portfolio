@@ -1,14 +1,14 @@
 <script lang="ts">
 	import '../app.css';
 	let { children } = $props();
-	import arepa from "$lib/arepa.png";
-	import arepa2 from "$lib/arepa2.png";
-	import arepa3 from "$lib/arepa3.png";
+	import arepa1 from "$lib/assets/arepas/arepa1.png";
+	import arepa2 from "$lib/assets/arepas/arepa2.png";
+	import arepa3 from "$lib/assets/arepas/arepa3.png";
 	import { page } from '$app/state';
     import resume from "$lib/resume.pdf";
 </script>
 
-<div class="py-[2%] grid grid-cols-[25vh_auto_25vh] gap-16 w-[95vw]">
+<div class="py-[2%] grid grid-cols-[25vh_auto_15vh] gap-16 w-[95vw]">
     <div>
         <h1 class="pb-10 font-black text-5xl">buh-!</h1>
         <h1 class="pb-10">whoami?</h1>
@@ -60,6 +60,9 @@
 			<li>
 				<a href="/" class={page.url.pathname === "/" ? "active" : ""}>projects</a>
 			</li>
+            <li>
+                <a href="/coursework" class={page.url.pathname === "/coursework" ? "active" : ""}>coursework</a>
+            </li>
             <li>
 				<a href="/art" class={page.url.pathname === "/art" ? "active" : ""}>art</a>
 			</li>

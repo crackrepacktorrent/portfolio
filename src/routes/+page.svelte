@@ -62,9 +62,10 @@
 		<div class="pb-10">
 			<a href="" class="text-blue-600">rustydns</a>
 		</div>
-		<p class="pb-10">A minimal DNS resolver written using only Rust's standard library.</p>
+		<p class="pb-10">A minimal DNS recursive resolver written using only Rust's standard library.</p>
 		<p>
-
+			rustydns was made as part of my senior capstone, with the goal of learning Rust through a systems-oriented
+			project. 
 		</p>
 	</div>
 </div>
