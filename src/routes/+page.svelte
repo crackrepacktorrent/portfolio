@@ -60,7 +60,7 @@
 
 	<div class="grid-row-2">
 		<div class="pb-10">
-			<a href="" class="text-blue-600">rustydns</a>
+			<a href="https://github.com/crackrepacktorrent/rustydns" class="text-blue-600">rustydns</a>
 		</div>
 		<p class="pb-10">A minimal DNS recursive resolver written using only Rust's standard library.</p>
 		<p>
